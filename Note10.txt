@@ -1,0 +1,30 @@
+My Git Repo: https://github.com/mahmudwali/Module-10Assignment.git
+
+
+
+detailed description of the folder structure used in the project:
+
+1. .gitignore: This file contains a list of files and directories that should be ignored by Git (version control system) when committing changes to your project.
+
+2. node_modules/: This folder contains all the dependencies (third-party libraries) installed via npm. 
+
+3. package.json: This file holds the configuration and metadata for Next project, including its name, version, dependencies, scripts, and more.
+
+4. pages/: This is a crucial folder in Next.js, as it holds all Next application's pages. Each file in this folder represents a different route in Next  app. For example:
+
+    a. index.js: The default landing page of Next  app accessible at the root URL ("/").
+    b. _app.js: A special file that wraps around all pages.
+    c. _document.js: Another special file used to modify the server-side rendered document's markup.
+5. public/: Any static assets like images, fonts, and favicons go into this folder. Files placed here are publicly accessible via their URL path.
+
+6. styles/: This folder holds global CSS styles for your application. The globals.css file contains CSS styles that will be applied to all pages.
+
+7. components/: This is where I store my React components that I can re-use across different pages.
+
+8. utils/: You can put utility functions or helper modules here to keep your code organized.
+
+9. README.md: This is the standard README file that provides information about Next  project.
+
+10. package-lock.json: These files lock the versions of the dependencies used in Next  project to ensure consistency across different environments.
+
+That's the basic folder structure of a Next.js project.
